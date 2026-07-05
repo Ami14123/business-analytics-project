@@ -64,9 +64,9 @@
    code_module          nominal            code name of the module, which serves 
                                            as the identifier
    code_presentation    nominal            code name of the presentation. It 
-                                           consists of the year and “B” for the 
+                                           consists of the year and â€œBâ€ for the 
                                            presentation starting in February and 
-                                           “J” for the presentation starting 
+                                           â€œJâ€ for the presentation starting 
                                            in October
    length               integer     days   length of the module-presentation 
                                            in days
@@ -117,7 +117,7 @@
                                            is registered on the module
    id_student           integer            a unique identification number 
                                            for the student
-   gender               nominal            the student’s gender
+   gender               nominal            the studentâ€™s gender
    region               nominal            identifies the geographic region, 
                                            where the student lived while taking 
                                            the module-presentation
@@ -127,7 +127,7 @@
                                            Depravation band of the place where 
                                            the student lived during 
                                            the module-presentation
-   age_band             nominal            band of the student’s age
+   age_band             nominal            band of the studentâ€™s age
    num_of_prev_attempts integer            the number times the student has 
                                            attempted this module
    studied_credits      integer            the total number of credits for the 
@@ -135,7 +135,7 @@
                                            studying
    disability           nominal            indicates whether the student has 
                                            declared a disability
-   final_result         nominal            student’s final result in the 
+   final_result         nominal            studentâ€™s final result in the 
                                            module-presentation
    -----------------------------------------------------------------------------                                        
    studentRegistration.csv
@@ -145,7 +145,7 @@
                                            of the presentation
    id_student           integer            a unique identification number 
                                            for the student
-   date_registration    integer    days    the date of student’s registration on
+   date_registration    integer    days    the date of studentâ€™s registration on
                                            the module presentation, this is the 
                                            number of days measured relative to 
                                            the start of the module-presentation 
@@ -176,7 +176,7 @@
                                            assessment result has been 
                                            transferred from a previous 
                                            presentation
-   score                integer            the student’s score in 
+   score                integer            the studentâ€™s score in 
                                            this assessment. The range is from
                                            0 to 100. The score lower than 40 is 
                                            interpreted as Fail. The marks are in
@@ -191,7 +191,7 @@
                                            for the student
    id_site              integer            an identification number for the 
                                            VLE material
-   date                 integer    days    the date of student’s interaction 
+   date                 integer    days    the date of studentâ€™s interaction 
                                            with the material measured as the 
                                            number of days since the start of 
                                            the module-presentation
